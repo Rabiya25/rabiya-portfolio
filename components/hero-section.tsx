@@ -46,7 +46,7 @@ export function HeroSection() {
               <ArrowUpRight className="h-4 w-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/rabiya-basri"
+              href="https://www.linkedin.com/in/rabiya-basri-a4a38326b/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
