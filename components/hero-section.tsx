@@ -57,7 +57,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-xl border border-border">
+        <div className="mx-auto w-[75%] overflow-hidden rounded-xl border border-border">
           <img
             src="/images/rabiya.jpg"
             alt="Rabiya Basri"
