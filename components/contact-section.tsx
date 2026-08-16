@@ -23,7 +23,7 @@ export function ContactSection() {
             rabiyabasri2025@gmail.com
           </a>
           <a
-            href="https://www.linkedin.com/in/rabiya-basri"
+            href="https://www.linkedin.com/in/rabiya-basri-a4a38326b/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-md border border-border px-5 py-2.5 font-mono text-sm text-foreground transition-colors hover:border-foreground/40"
