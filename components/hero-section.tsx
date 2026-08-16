@@ -61,7 +61,7 @@ export function HeroSection() {
           <img
             src="/images/rabiya.jpg"
             alt="Rabiya Basri"
-            className="aspect-[4/3] w-full object-cover object-top"
+            className="aspect-[4/5] w-full object-cover object-top"
           />
           <div className="grid grid-cols-2">
             {FACTS.map((fact, i) => (
