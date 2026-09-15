@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
 
 const PROJECTS = [
