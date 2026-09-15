@@ -8,6 +8,7 @@ const PROJECTS = [
     description:
       'Converted an AR safety concept into a VR training application and expanded interaction flows across multiple rooms for more complete training scenarios.',
     tags: ['Unity', 'VR', 'C#'],
+    image: '/projects/Hazard.png',
   },
   {
     title: 'Kumo Library',
@@ -44,11 +45,24 @@ export function WorkSection() {
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
           {PROJECTS.map((project) => (
-            <article
-              key={project.title}
-              className="group flex flex-col bg-background p-8 transition-colors hover:bg-card"
-            >
-              <div className="flex items-start justify-between gap-4">
+      <article
+  key={project.title}
+  className="group flex flex-col bg-background transition-colors hover:bg-card"
+>
+  {project.image && (
+    <div className="relative aspect-video w-full overflow-hidden">
+      <Image
+        src={project.image}
+        alt={project.title}
+        fill
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+      />
+    </div>
+  )}
+
+  <div className="flex flex-1 flex-col p-8">
+    <div className="flex items-start justify-between gap-4">
+
                 <div>
                   <h3 className="text-xl font-semibold text-foreground">
                     {project.title}
@@ -72,10 +86,10 @@ export function WorkSection() {
                   </li>
                 ))}
               </ul>
-            </article>
-          ))}
-        </div>
+            </div>
+          </article>
+        ))}
       </div>
-    </section>
-  )
-}
+    </div>
+  </section>
+)}
