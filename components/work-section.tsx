@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowUpRight } from 'lucide-react'
 
@@ -44,11 +45,16 @@ export function WorkSection() {
         </div>
 
         <div className="mt-12 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
-          {PROJECTS.map((project) => (
-      <article
-  key={project.title}
-  className="group flex flex-col bg-background transition-colors hover:bg-card"
->
+{PROJECTS.map((project) => (
+  <Link
+    key={project.title}
+    href={
+      project.title === 'VR Safety Training'
+        ? '/projects/vr-safety'
+        : '#'
+    }
+    className="group flex flex-col bg-background transition-colors hover:bg-card"
+  >
   {project.image && (
     <div className="relative aspect-video w-full overflow-hidden">
       <Image
@@ -87,7 +93,7 @@ export function WorkSection() {
                 ))}
               </ul>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
     </div>
