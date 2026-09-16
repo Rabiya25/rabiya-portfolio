@@ -22,8 +22,9 @@ const PROJECTS = [
     title: 'Soil Moisture Inspection Robot',
     meta: 'Embedded Systems · 2023',
     description:
-      'Built a real-time prototype with 95% moisture detection accuracy that reduced inspection time by 50%.',
-    tags: ['Embedded', 'Real-Time Control'],
+      'Developed a robotic prototype for soil-moisture measurement, combining Bluetooth control, sensor integration, and a servo-driven inspection arm.',
+    tags: ['Embedded', 'Sensors', 'Robotics'],
+    image: '/projects/soil-robot-showcase.png',
   },
 ]
 
@@ -64,6 +65,7 @@ export function WorkSection() {
               className="group flex flex-col bg-background transition-colors hover:bg-card"
             >
 
+              {/* Project image */}
               {project.image && (
                 <div className="relative aspect-video w-full overflow-hidden">
                   <Image
@@ -75,6 +77,7 @@ export function WorkSection() {
                 </div>
               )}
 
+              {/* Project content */}
               <div className="flex flex-1 flex-col p-8">
 
                 <div className="flex items-start justify-between gap-4">
@@ -98,7 +101,6 @@ export function WorkSection() {
                 </p>
 
                 <ul className="mt-6 flex flex-wrap gap-2">
-
                   {project.tags.map((tag) => (
                     <li
                       key={tag}
@@ -107,7 +109,6 @@ export function WorkSection() {
                       {tag}
                     </li>
                   ))}
-
                 </ul>
 
               </div>
