@@ -25,7 +25,7 @@ export default function SoilInspectionPage() {
         {/* Hero */}
         <header className="mt-14 max-w-4xl">
           <p className="font-mono text-sm text-muted-foreground">
-            REALTIME SYSTEMS · WS23/24
+            REALTIME SYSTEMS · WS 23/24
           </p>
 
           <h1 className="mt-4 text-5xl font-bold tracking-tight md:text-7xl">
