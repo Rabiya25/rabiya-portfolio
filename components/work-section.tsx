@@ -5,7 +5,7 @@ import { ArrowUpRight } from 'lucide-react'
 const PROJECTS = [
   {
     title: 'VR Safety Training',
-    meta: 'Interaction Design · 2025',
+    meta: 'Interaction Design · 2023',
     description:
       'Converted an AR safety concept into a VR training application and expanded interaction flows across multiple rooms for more complete training scenarios.',
     tags: ['Unity', 'VR', 'C#'],
