@@ -244,7 +244,7 @@ export default function VRSafetyTrainingPage() {
         {/* Hero */}
         <header className="mt-14 max-w-4xl">
           <p className="font-mono text-sm text-muted-foreground">
-            INTERACTION DESIGN · 2025
+            INTERACTION DESIGN · SS 2023
           </p>
 
           <h1 className="mt-4 text-5xl font-bold tracking-tight md:text-7xl">
@@ -537,7 +537,7 @@ export default function VRSafetyTrainingPage() {
         {/* Closing */}
         <section className="mt-24 border-t border-border pt-10">
           <p className="font-mono text-xs text-muted-foreground">
-            VR SAFETY TRAINING · 2025
+            VR SAFETY TRAINING · 2023
           </p>
 
           <h2 className="mt-3 text-2xl font-semibold">
