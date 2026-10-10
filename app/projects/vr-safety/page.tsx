@@ -15,7 +15,7 @@
 
 //         <header className="mt-12 max-w-3xl">
 //           <p className="font-mono text-sm text-muted-foreground">
-//             Interaction Design · 2023
+//             Interaction Design · SS 2023
 //           </p>
 
 //           <h1 className="mt-3 text-4xl font-bold tracking-tight md:text-6xl">
